@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  height: 100vh;
+}
+
+.panel {
+  flex: 0 0 100vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  background: #f8f8f8;
+}
+
+#scalability, #affordability, #integration, #success-stories, #call-to-action {
+  background: #e8e8e8;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    overflow-x: hidden;
+    height: auto;
+  }
+  
+  .panel {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}

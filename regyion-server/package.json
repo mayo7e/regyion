@@ -1,0 +1,21 @@
+{
+  "name": "regyion-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.17.0",
+    "npm": "10.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./api/index.js"
+  },
+  "author": "overt outlook",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "vercel": "^34.2.3"
+  }
+}

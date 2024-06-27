@@ -2,16 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
-    background: ${({ theme }) => theme.body};
-    color: ${({ theme }) => theme.text};
-    font-family: 'Arial', sans-serif;
+    background: ${({ theme }) => theme.colors.primary}; /* Adjust based on your theme structure */
+    color: ${({ theme }) => theme.text.body};
+    font-family: ${({ theme }) => theme.fonts.primary};
     transition: all 0.50s linear;
   }
 
   .theme-toggle {
-    background: ${({ theme }) => theme.panel};
-    border: 2px solid ${({ theme }) => theme.border};
-    color: ${({ theme }) => theme.text};
+    background: ${({ theme }) => theme.colors.secondary};
+    border: 2px solid ${({ theme }) => theme.border.primary};
+    color: ${({ theme }) => theme.text.body};
     padding: 0.6em;
     cursor: pointer;
     position: fixed;
@@ -25,8 +25,8 @@ export const GlobalStyles = createGlobalStyle`
     position: fixed;
     top: 0;
     width: 100%;
-    background: ${({ theme }) => theme.panel};
-    border-bottom: 1px solid ${({ theme }) => theme.border};
+    background: ${({ theme }) => theme.colors.primary};
+    border-bottom: 1px solid ${({ theme }) => theme.border.primary};
     display: flex;
     justify-content: center;
     z-index: 1000;

@@ -1,0 +1,21 @@
+{
+   "source": [
+    "Brand.json"
+  ],
+  "preprocessors": [
+    "tokens-studio"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "tokens-studio",
+      "prefix": "sd",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

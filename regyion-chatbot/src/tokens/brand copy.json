@@ -1,0 +1,317 @@
+{
+  "sizing": {
+    "0": "0",
+    "25": "1",
+    "50": "2",
+    "100": "4",
+    "200": "8",
+    "250": "10",
+    "300": "12",
+    "400": "16",
+    "500": "24",
+    "600": "32",
+    "700": "64"
+  },
+  "typography": {
+    "body": {
+      "xs": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeight.body.xs}",
+        "fontSize": "14",
+        "paragraphSpacing": "{paragraphSpacing.body.md}"
+      },
+      "xs-link": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeight.body.xs}",
+        "fontSize": "14",
+        "paragraphSpacing": "{paragraphSpacing.body.md}",
+        "textDecoration": "{textDecoration.Underline}"
+      },
+      "xs-bold": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.bold}",
+        "lineHeight": "{lineHeight.body.xs}",
+        "fontSize": "14",
+        "paragraphSpacing": "{paragraphSpacing.body.md}"
+      },
+      "sm": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeight.body.sm}",
+        "fontSize": "{fontSize.body.sm}",
+        "paragraphSpacing": "{paragraphSpacing.body.md}"
+      },
+      "sm-link": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "lineHeight": "{lineHeight.body.sm}",
+        "fontSize": "{fontSize.body.sm}",
+        "paragraphSpacing": "{paragraphSpacing.body.md}",
+        "textDecoration": "{textDecoration.Underline}"
+      },
+      "sm-bold": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.bold}",
+        "lineHeight": "20px",
+        "fontSize": "14px",
+        "paragraphSpacing": "16px"
+      },
+      "md": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "lineHeight": "24px",
+        "fontSize": "16px",
+        "paragraphSpacing": "16px",
+        "fontWeight": "{fontWeights.regular}"
+      },
+      "md-link": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "textDecoration": "{textDecoration.Underline}",
+        "paragraphSpacing": "16px"
+      },
+      "md-bold": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.bold}",
+        "fontSize": "16px",
+        "lineHeight": "24px"
+      },
+      "lg": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "paragraphSpacing": "20px"
+      },
+      "lg-bold": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.bold}",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "paragraphSpacing": "20px"
+      },
+      "lg-link": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.regular}",
+        "fontSize": "{fontSize.body.lg}",
+        "lineHeight": "{lineHeight.body.lg}",
+        "paragraphSpacing": "{paragraphSpacing.body.lg}",
+        "textDecoration": "{textDecoration.Underline}"
+      }
+    },
+    "heading": {
+      "xxs": {
+        "fontFamily": "{fontFamilies,Primary}",
+        "fontWeight": "{fontWeights.semibold}",
+        "lineHeight": "24px",
+        "fontSize": "16px"
+      },
+      "xs": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.semibold}",
+        "lineHeight": "26px",
+        "fontSize": "20px"
+      },
+      "sm": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.semibold}",
+        "lineHeight": "32px",
+        "fontSize": "24px"
+      },
+      "md": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.semibold}",
+        "lineHeight": "36px",
+        "fontSize": "28px"
+      },
+      "lg": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.semibold}",
+        "fontSize": "32px",
+        "lineHeight": "40px"
+      },
+      "xl": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontSize": "40px",
+        "lineHeight": "48px",
+        "fontWeight": "{fontWeights.semibold}"
+      },
+      "hero": {
+        "fontFamily": "{fontFamilies.Primary}",
+        "fontWeight": "{fontWeights.semibold}",
+        "fontSize": "48px",
+        "lineHeight": "56px"
+      }
+    }
+  },
+  "fontSize": {
+    "body": {
+      "xs": "12",
+      "sm": "14",
+      "md": "16",
+      "lg": "20"
+    }
+  },
+  "lineHeight": {
+    "body": {
+      "xs": "16",
+      "sm": "20",
+      "md": "24",
+      "lg": "28"
+    },
+    "heading": {
+      "xxs": "24",
+      "xs": "26",
+      "sm": "32",
+      "md": "36",
+      "lg": "40",
+      "xl": "48",
+      "hero": "56"
+    }
+  },
+  "paragraphSpacing": {
+    "body": {
+      "md": "16",
+      "lg": "20"
+    }
+  },
+  "spacing": {
+    "xxxs": "2px",
+    "xxs": "4px",
+    "xs": "8px",
+    "sm": "12px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "xxl": "48px",
+    "xxxl": "64px"
+  },
+  "boxShadow": {
+    "xs": {
+      "x": "0",
+      "y": "2",
+      "blur": "4",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.12)"
+    },
+    "sm": [
+      {
+        "x": "0",
+        "y": "12",
+        "blur": "16",
+        "spread": "-8",
+        "color": "rgba(0,0,0,0.12)"
+      }
+    ],
+    "md": [
+      {
+        "x": "0",
+        "y": "20",
+        "blur": "24",
+        "spread": "-12",
+        "color": "rgba(0,0,0,0.16)"
+      }
+    ],
+    "lg": [
+      {
+        "x": "0",
+        "y": "32",
+        "blur": "48",
+        "spread": "-16",
+        "color": "rgba(0,0,0,0.2)"
+      }
+    ],
+    "xl": {
+      "x": "0",
+      "y": "48",
+      "blur": "64",
+      "spread": "-24",
+      "color": "rgba(0,0,0,0.24)"
+    }
+  },
+  "borderRadius": {
+    "none": "0px",
+    "xs": "2px",
+    "sm": "4px",
+    "md": "8px",
+    "round": "50%"
+  },
+  "borderWidth": {
+    "none": "0px",
+    "sm": "1px",
+    "md": "2px",
+    "lg": "4px"
+  },
+  "fontFamilies": {
+    "Primary": "Roboto"
+  },
+  "fontWeights": {
+    "regular": "Regular",
+    "bold": "Bold",
+    "semibold": "SemiBold"
+  },
+  "textDecoration": {
+    "Underline": "underline"
+  },
+  "color": {
+    "Brand": {
+      "red-darker": "#601E17",
+      "red-dark": "#AF2A1A",
+      "red": "#E34935",
+      "red-light": "#FA7463",
+      "red-lighter": "#FFEDEA",
+      "orange": "#D97008",
+      "yellow-darker": "#5F480C",
+      "yellow-dark": "#805F10",
+      "yellow": "#B38600",
+      "light": "#E2B226",
+      "yellow-lighter": "#FFF7D7",
+      "green-darker": "#18563E",
+      "green-dark": "#1D6E4F",
+      "green": "#22A06B",
+      "green-light": "#46CE9A",
+      "green-lighter": "#DFFCF1",
+      "teal-darker": "#22565B",
+      "teal-dark": "#337C85",
+      "teal": "#1D9AAA",
+      "teal-light": "#5DC6D2",
+      "teal-lighter": "#BFF0F5",
+      "blue-darker": "#07326A",
+      "blue-dark": "#0056C9",
+      "blue": "#1D7AFC",
+      "blue-light": "#549DFC",
+      "blue-lighter": "#E9F2FF",
+      "purple-darker": "#421F79",
+      "purple-dark": "#5243AA",
+      "purple": "#6554C0",
+      "purple-light": "#8F7EE7",
+      "purple-lighter": "#EAE6FF",
+      "gray-darker": "#091E42",
+      "gray-dark": "#344563",
+      "gray": "#42526E",
+      "gray-light": "#7A869A",
+      "gray-lighter": "#B3BAC5",
+      "gray-lightest": "#EBECF0",
+      "gray-background": "#F4F5F7",
+      "gray-offwhite": "#FAFBFC",
+      "white": "#FFFFFF",
+      "black": "#000000"
+    },
+    "text": {
+      "red": "#E34935",
+      "orange": "#D97008",
+      "yellow": "#B38600",
+      "green": "#22A06B",
+      "teal": "#1D9AAA",
+      "blue": "#1D7AFC",
+      "purple": "#6554C0",
+      "red-light": "#FA7463",
+      "gray-dark": "#344563",
+      "white": "#FFFFFF",
+      "black": "#000000"
+    }
+  }
+}

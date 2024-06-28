@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import {lightTheme, darkTheme} from "./theme"
+import { themeConfig } from './theme';
 import { GlobalStyles } from './global';
 import ModeToggle from './components/ModeToggle/ModeToggle';
 import Navbar from './components/Navbar/Navbar';
@@ -18,7 +18,7 @@ const App = () => {
   };
 
   return (
-    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === 'light' ? themeConfig.lightTheme : themeConfig.darkTheme}>
       <GlobalStyles />
       <Navbar />
       <ModeToggle theme={theme} toggleTheme={toggleTheme} />

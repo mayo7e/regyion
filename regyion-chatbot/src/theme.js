@@ -245,7 +245,7 @@ const theme = {
   // Text colors
   text: {
     headings: 'var(--sdColorTextBlack)',
-    body: 'var(--sdColorTextGray)', // Adjusted for readability in dark mode
+    body: 'var(--sdColorTextBlack)', // Adjusted for readability in dark mode
     action: 'var(--sdColorBrandGrayLight)', // Adjusted for visibility in dark mode
     actionHover: 'var(--sdColorBrandGrayLightest)', // Adjusted for interaction feedback
     disabled: 'var(--sdColorBrandGrayLighter)', // Adjusted for disabled state in dark mode
@@ -270,7 +270,7 @@ const theme = {
   // Surface colors
   surface: {
     page: 'var(--sdDarkColorBrandGrayBackground)', // Adjusted for overall page background in dark mode
-    primary: 'var(--sdDarkColorBrandGrayBackground)', // Adjusted for primary surface color in dark mode
+    primary: 'var(sdColorBrandGrayLight)', // Adjusted for primary surface color in dark mode
     secondary: 'var(--sdColorBrandGrayLightest)', // Adjusted for secondary surface color in dark mode
     disabled: 'var(--sdColorBrandGrayLightest)', // Adjusted for disabled state surface color in dark mode
     success: 'var(--sdColorBrandGrayLight)', // Adjusted for success surface color in dark mode
@@ -311,57 +311,13 @@ const theme = {
 // Theme configuration object
 export const themeConfig = {
   lightTheme: {
-    colors: theme.colors,
-    text: theme.text,
-    icon: theme.icon,
-    surface: theme.surface,
-    border: theme.border,
-    focus: theme.focus,
-    
+    ...theme,
   },
   darkTheme: {
-    colors: {
-      BrandGrayDarker: 'var(--sdDarkColorBrandGrayDarker)',
-      BrandGrayDark: 'var(--sdDarkColorBrandGrayDark)',
-      BrandGray: 'var(--sdColorBrandGray)', // Not overridden in dark mode
-      BrandGrayLight: 'var(--sdColorBrandGrayLight)', // Not overridden in dark mode
-      BrandGrayLighter: 'var(--sdColorBrandGrayLighter)', // Not overridden in dark mode
-      BrandGrayLightest: 'var(--sdColorBrandGrayLightest)', // Not overridden in dark mode
-      BrandBlack: 'var(--sdDarkColorBrandBlack)',
-      BrandWhite: 'var(--sdDarkColorBrandWhite)',
-      primaryDark: 'var(--sdDarkColorBrandGrayDarker)',
-      primary: 'var(--sdDarkColorBrandGrayDark)',
-      primaryLight: 'var(--sdColorBrandGray)', // Not overridden in dark mode
-      secondaryDark: 'var(--sdColorBrandGrayLight)', // Not overridden in dark mode
-      secondary: 'var(--sdColorBrandGrayLighter)', // Not overridden in dark mode
-      secondaryLight: 'var(--sdColorBrandGrayLightest)', // Not overridden in dark mode
-      neutralDarkest: 'var(--sdDarkColorBrandBlack)',
-      neutralDarker: 'var(--sdDarkColorBrandGrayDarker)',
-      neutralDark: 'var(--sdDarkColorBrandGrayDark)',
-      neutral: 'var(--sdColorBrandGray)', // Not overridden in dark mode
-      neutralLight: 'var(--sdColorBrandGrayLight)', // Not overridden in dark mode
-      neutralLighter: 'var(--sdColorBrandGrayLighter)', // Not overridden in dark mode
-      neutralLightest: 'var(--sdColorBrandGrayLightest)', // Not overridden in dark mode
-      informationDark: 'var(--sdDarkColorBrandBlack)',
-      information: 'var(--sdDarkColorBrandGrayDarker)',
-      informationLight: 'var(--sdColorBrandGrayDark)', // Not overridden in dark mode
-      informationLighter: 'var(--sdColorBrandGray)', // Not overridden in dark mode
-      successDark: 'var(--sdDarkColorBrandBlack)',
-      success: 'var(--sdDarkColorBrandGrayDarker)',
-      successLight: 'var(--sdColorBrandGrayDark)', // Not overridden in dark mode
-      warningDarker: 'var(--sdDarkColorBrandBlack)',
-      warning: 'var(--sdDarkColorBrandGrayDarker)',
-      warningLight: 'var(--sdColorBrandGrayDark)', // Not overridden in dark mode
-      errorDark: 'var(--sdDarkColorBrandBlack)',
-      error: 'var(--sdDarkColorBrandGrayDarker)',
-      errorLight: 'var(--sdColorBrandGrayDark)', // Not overridden in dark mode
-      highlight: 'var(--sdColorBrandGray)', // Not overridden in dark mode
-      black: 'var(--sdDarkColorBrandBlack)',
-      white: 'var(--sdDarkColorBrandWhite)'
-    },
+    ...theme,
     text: {
-      headings: 'var(--sdDarkColorTextBlack)',
-      body: 'var(--sdDarkColorTextGray)',
+      headings: 'var(--sdColorTextWhite)',
+      body: 'var(--sdColorTextWhite)',
       action: 'var(--sdDarkColorBrandGrayLight)',
       actionHover: 'var(--sdDarkColorBrandGrayLightest)',
       disabled: 'var(--sdDarkColorBrandGrayLighter)',
@@ -381,8 +337,8 @@ export const themeConfig = {
       error: 'var(--sdDarkColorBrandGrayLightest)'
     },
     surface: {
-      page: 'var(--sdDarkColorBrandGrayBackground)',
-      primary: 'var(--sdDarkColorBrandGrayBackground)',
+      page: 'var(--sdColorTextBlack)',
+      primary: 'var(--sdColorBrandGray)',
       secondary: 'var(--sdColorBrandGrayLightest)', // Not overridden in dark mode
       disabled: 'var(--sdColorBrandGrayLightest)', // Not overridden in dark mode
       success: 'var(--sdColorBrandGrayLight)', // Not overridden in dark mode

@@ -13,14 +13,14 @@ export const ToggleContainer = styled.button`
   z-index: 1000;
 
   /* Ensure text color contrasts well with the background */
-  color: ${({ theme }) => theme.text.primary};
+  color: ${({ theme }) => theme.text.body};
 
   /* Add transitions or other styles as needed */
   transition: background-color 0.3s ease, color 0.3s ease;
 
   /* Example hover effect */
   &:hover {
-    background-color: ${({ theme }) => theme.surface.action1Hover};
+    background-color: ${({ theme }) => theme.surface.action2Hover};
     border-color: ${({ theme }) => theme.border.hover};
   }
 `;

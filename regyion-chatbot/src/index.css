@@ -18,13 +18,13 @@ body {
   align-items: center;
 }
 
-#hero {
+/* #hero {
   background: #f8f8f8;
-}
+} */
 
-#scalability, #affordability, #integration, #success-stories, #call-to-action {
+/* #scalability, #affordability, #integration, #success-stories, #call-to-action {
   background: #e8e8e8;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .container {

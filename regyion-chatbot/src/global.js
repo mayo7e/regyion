@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .theme-toggle {
-    background: ${({ theme }) => theme.colors.secondary};
+    background: ${({ theme }) => theme.surface.page};
     border: 2px solid ${({ theme }) => theme.border.primary};
     color: ${({ theme }) => theme.text.body};
     padding: 0.6em;
@@ -60,20 +60,6 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   /* Apply textStyle */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: ${textStyle.typography.heading.md.fontFamily};
-    font-weight: ${textStyle.typography.heading.md.fontWeight};
-    font-size: ${textStyle.typography.heading.md.fontSize};
-    line-height: ${textStyle.typography.heading.md.lineHeight};
-  }
-
-  p {
-    font-family: ${textStyle.typography.body.md.fontFamily};
-    font-weight: ${textStyle.typography.body.md.fontWeight};
-    font-size: ${textStyle.typography.body.md.fontSize};
-    line-height: ${textStyle.typography.body.md.lineHeight};
-    margin-bottom: ${textStyle.typography.body.md.paragraphSpacing};
-  }
 
   a {
     font-family: ${textStyle.typography.body.md.link.fontFamily};
@@ -87,23 +73,9 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${textStyle.typography.body.md.bold.fontFamily};
     font-weight: ${textStyle.typography.body.md.bold.fontWeight};
     font-size: ${textStyle.typography.body.md.bold.fontSize};
-    line-height: ${textStyle.typography.body.md.bold.lineHeight};
-    margin-bottom: ${textStyle.typography.body.md.bold.paragraphSpacing};
-  }
-
-  .small-text {
-    font-family: ${textStyle.typography.body.sm.fontFamily};
-    font-weight: ${textStyle.typography.body.sm.fontWeight};
-    font-size: ${textStyle.typography.body.sm.fontSize};
     line-height: ${textStyle.typography.body.sm.lineHeight};
-    margin-bottom: ${textStyle.typography.body.sm.paragraphSpacing};
+    /* margin-bottom: ${textStyle.typography.body.md.bold.paragraphSpacing}; */
   }
 
-  .large-text {
-    font-family: ${textStyle.typography.body.lg.fontFamily};
-    font-weight: ${textStyle.typography.body.lg.fontWeight};
-    font-size: ${textStyle.typography.body.lg.fontSize};
-    line-height: ${textStyle.typography.body.lg.lineHeight};
-    margin-bottom: ${textStyle.typography.body.lg.paragraphSpacing};
-  }
+
 `;

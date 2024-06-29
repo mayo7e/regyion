@@ -269,9 +269,9 @@ const theme = {
 
   // Surface colors
   surface: {
-    page: 'var(--sdDarkColorBrandGrayBackground)', // Adjusted for overall page background in dark mode
+    page: 'var(--sdColorBrandGrayBackground)', // Adjusted for overall page background in dark mode
     primary: 'var(sdColorBrandGrayLight)', // Adjusted for primary surface color in dark mode
-    secondary: 'var(--sdColorBrandGrayLightest)', // Adjusted for secondary surface color in dark mode
+    secondary: 'var(--sdColorBrandGrayLighte)', // Adjusted for secondary surface color in dark mode
     disabled: 'var(--sdColorBrandGrayLightest)', // Adjusted for disabled state surface color in dark mode
     success: 'var(--sdColorBrandGrayLight)', // Adjusted for success surface color in dark mode
     error: 'var(--sdColorBrandGrayLight)', // Adjusted for error surface color in dark mode

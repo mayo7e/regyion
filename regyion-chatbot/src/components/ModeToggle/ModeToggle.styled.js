@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const ToggleContainer = styled.button`
   background: ${({ theme }) => theme.surface.primary};
   border: 1px solid ${({ theme }) => theme.border.primary};
@@ -10,4 +11,17 @@ export const ToggleContainer = styled.button`
   top: 1rem;
   right: 1rem;
   z-index: 1000;
+
+  /* Ensure text color contrasts well with the background */
+  color: ${({ theme }) => theme.text.primary};
+
+  /* Add transitions or other styles as needed */
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  /* Example hover effect */
+  &:hover {
+    background-color: ${({ theme }) => theme.surface.action1Hover};
+    border-color: ${({ theme }) => theme.border.hover};
+  }
 `;
+

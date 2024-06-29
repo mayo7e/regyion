@@ -17,19 +17,23 @@ const App = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
+
+  const themeMode = theme === 'light' ? themeConfig.lightTheme : themeConfig.darkTheme
+    
+
   return (
-    <ThemeProvider theme={theme === 'light' ? themeConfig.lightTheme : themeConfig.darkTheme}>
+    <ThemeProvider theme={themeMode}>
       <GlobalStyles />
       <Navbar />
       <ModeToggle theme={theme} toggleTheme={toggleTheme} />
-      <div className="container">
+      {/* <div className="container">
         <Hero />
         <Panel id="scalability" title="Scalability" content="Grow with your business." />
         <Panel id="affordability" title="Affordability" content="Flexible plans for startups." />
         <Panel id="integration" title="Integration" content="Easy embed into any platform." />
         <Panel id="success-stories" title="Success Stories" content="See how startups benefit." />
         <Panel id="call-to-action" title="Call to Action" content="Experience our chatbot." />
-      </div>
+      </div> */}
     </ThemeProvider>
   );
 };

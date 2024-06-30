@@ -9,5 +9,4 @@ export const PanelContainer = styled.div`
   background: ${({ theme }) => theme.surface.page};
   border-right: 1px solid ${({ theme }) => theme.border.secondary};
   text-align: center;
-  border: 2px solid lime;
 `;

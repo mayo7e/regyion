@@ -20,7 +20,8 @@ export const ToggleContainer = styled.button`
 
   /* Example hover effect */
   &:hover {
-    background-color: ${({ theme }) => theme.surface.action2Hover};
+    background-color: ${({ theme }) => theme.surface.secondary};
+    color: ${({ theme }) => theme.surface.action1Hover};
     border-color: ${({ theme }) => theme.border.hover};
   }
 `;

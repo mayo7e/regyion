@@ -353,7 +353,7 @@ export const themeConfig = {
       modal: 'rgba(0,0,0,0.75)' // Not overridden in dark mode
     },
     border: {
-      primary: 'var(--sdDarkColorBrandGrayLighter)',
+      primary: 'var(--sdDarkColorBrandGray)',
       secondary: 'var(--sdDarkColorBrandGrayDark)',
       tertiary: 'rgba(0,0,0,0.2)',
       information: 'var(--sdDarkColorBrandGrayDarker)',

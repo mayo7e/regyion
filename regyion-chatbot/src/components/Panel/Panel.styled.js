@@ -6,7 +6,8 @@ export const PanelContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.surface.primary};
+  background: ${({ theme }) => theme.surface.page};
   border-right: 1px solid ${({ theme }) => theme.border.secondary};
   text-align: center;
+  border: 2px solid lime;
 `;

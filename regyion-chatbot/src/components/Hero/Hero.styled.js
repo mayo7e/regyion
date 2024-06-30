@@ -6,6 +6,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: ${({ theme }) => theme.colors.neutral.lightest};
+  /* border: 2px solid tomato; */
+  background-color: ${({ theme }) => theme.surface.page};
   padding: 20px;
 `;

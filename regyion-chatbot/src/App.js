@@ -11,14 +11,18 @@ import Panel from './components/Panel/Panel';
 import Hero from './components/Hero/Hero';
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
+
+  const themeMode = theme === 'light' ? themeConfig.lightTheme : themeConfig.darkTheme
+    
+
   return (
-    <ThemeProvider theme={theme === 'light' ? themeConfig.lightTheme : themeConfig.darkTheme}>
+    <ThemeProvider theme={themeMode}>
       <GlobalStyles />
       <Navbar />
       <ModeToggle theme={theme} toggleTheme={toggleTheme} />

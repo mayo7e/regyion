@@ -1,5 +1,5 @@
+// ModeToggle.styled.js
 import styled from 'styled-components';
-
 
 export const ToggleContainer = styled.button`
   background: ${({ theme }) => theme.surface.primary};
@@ -7,10 +7,7 @@ export const ToggleContainer = styled.button`
   border-radius: 10px;
   cursor: pointer;
   padding: 0.6rem;
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 1000;
+  /* z-index: 1000; */
 
   /* Ensure text color contrasts well with the background */
   color: ${({ theme }) => theme.text.body};
@@ -25,4 +22,3 @@ export const ToggleContainer = styled.button`
     border-color: ${({ theme }) => theme.border.hover};
   }
 `;
-

@@ -18,7 +18,7 @@ export const HeroContainer = styled.div`
   align-items: center;
   text-align: center;
   background-color: ${({ theme }) => theme.surface.page};
-  padding: 20px;
+  padding: 16px;
 `;
 
 export const HeroContent = styled.div`
@@ -36,7 +36,7 @@ export const HeroTitle = styled.h1`
 
 export const HeroSubtitle = styled.p`
   font-size: 1.25rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: ${({ theme }) => theme.text.primary};
   transform: translateX(-100%);
   opacity: 0;
